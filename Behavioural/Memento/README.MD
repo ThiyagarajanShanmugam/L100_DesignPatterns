@@ -1,6 +1,6 @@
 # Photo Editing Software - Memento Pattern Explanation
 
-## 🧩 The Problem (Like Explaining to a 5-Year-Old)
+## 🧩 The Problem  
 
 Imagine you're editing a **photo on Instagram** and making it look perfect:
 

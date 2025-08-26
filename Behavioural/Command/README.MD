@@ -1,6 +1,6 @@
 # Restaurant Ordering System - Command Pattern Explanation
 
-## 🧩 The Problem (Like Explaining to a 5-Year-Old)
+## 🧩 The Problem  
 
 Imagine you're at a **fancy restaurant** and you want to order food:
 

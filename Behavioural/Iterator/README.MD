@@ -1,6 +1,6 @@
 # Music Playlist Player - Iterator Pattern Explanation
 
-## 🧩 The Problem (Like Explaining to a 5-Year-Old)
+## 🧩 The Problem  
 
 Imagine you have a **music playlist** on Spotify with 100 songs:
 
