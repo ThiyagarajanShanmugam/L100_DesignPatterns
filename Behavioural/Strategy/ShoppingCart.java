@@ -20,7 +20,7 @@ public class ShoppingCart {
     // Process checkout using selected payment strategy
     public void checkout() {
         if (paymentStrategy == null) {
-            System.out.println("❌ Please select a payment method");
+            System.out.println("Please select a payment method");
             return;
         }
         

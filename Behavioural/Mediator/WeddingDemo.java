@@ -29,6 +29,6 @@ public class WeddingDemo {
         caterer.sendUpdate("Dinner is ready for party");
         dj.sendUpdate("Ready for cake cutting ceremony");
         
-        System.out.println("\nMediator Pattern Demo Complete! 💒");
+        System.out.println("\nMediator Pattern Demo Complete!");
     }
 }

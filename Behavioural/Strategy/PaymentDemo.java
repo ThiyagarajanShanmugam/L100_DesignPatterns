@@ -33,7 +33,7 @@ public class PaymentDemo {
         cart.setPaymentMethod(applePay);
         cart.checkout();
         
-        System.out.println("\n🎉 Strategy Pattern Demo Complete!");
+        System.out.println("\nStrategy Pattern Demo Complete!");
         System.out.println("Same cart, different payment algorithms!");
     }
 }

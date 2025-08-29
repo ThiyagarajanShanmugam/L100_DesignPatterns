@@ -12,16 +12,16 @@ public class EditHistory {
     
     public void saveState(PhotoMemento memento) {
         history.push(memento);
-        System.out.println("✅ State saved to history");
+        System.out.println("State saved to history");
     }
     
     public PhotoMemento undo() {
         if (!history.isEmpty()) {
             PhotoMemento memento = history.pop();
-            System.out.println("↶ Undoing last edit");
+            System.out.println("Undoing last edit");
             return memento;
         }
-        System.out.println("❌ No more edits to undo");
+                    System.out.println("No more edits to undo");
         return null;
     }
     

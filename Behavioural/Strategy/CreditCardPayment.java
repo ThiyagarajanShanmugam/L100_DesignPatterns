@@ -22,9 +22,9 @@ public class CreditCardPayment implements PaymentStrategy {
             System.out.println("💳 Connecting to bank...");
             System.out.println("Card: ****" + cardNumber.substring(12));
             System.out.println("Holder: " + cardHolderName);
-            System.out.println("✅ Paid $" + amount + " via Credit Card");
+            System.out.println("Paid $" + amount + " via Credit Card");
         } else {
-            System.out.println("❌ Invalid credit card details");
+            System.out.println("Invalid credit card details");
         }
     }
     

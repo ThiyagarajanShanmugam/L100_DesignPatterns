@@ -21,9 +21,9 @@ public class ApplePayPayment implements PaymentStrategy {
             System.out.println("🍎 Connecting to Apple Pay...");
             System.out.println("Device: " + deviceId);
             System.out.println("Biometric authentication verified");
-            System.out.println("✅ Paid $" + amount + " via Apple Pay");
+            System.out.println("Paid $" + amount + " via Apple Pay");
         } else {
-            System.out.println("❌ Apple Pay authentication failed");
+            System.out.println("Apple Pay authentication failed");
         }
     }
     

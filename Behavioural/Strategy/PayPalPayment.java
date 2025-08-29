@@ -21,9 +21,9 @@ public class PayPalPayment implements PaymentStrategy {
             System.out.println("🔵 Connecting to PayPal...");
             System.out.println("Email: " + email);
             System.out.println("Authenticating PayPal account...");
-            System.out.println("✅ Paid $" + amount + " via PayPal");
+            System.out.println("Paid $" + amount + " via PayPal");
         } else {
-            System.out.println("❌ Invalid PayPal credentials");
+            System.out.println("Invalid PayPal credentials");
         }
     }
     
